@@ -6,6 +6,9 @@
     --yellow-gradient:linear-gradient(to right, #FBF138 0%, #FDF9B6 45%)
 
 }
+html,body{
+    height: 100%;
+}
 html{
     font-family: "Montserrat", sans-serif;
 }
@@ -63,4 +66,28 @@ html{
     height: 25px;
     background-color: var(--yellow-color);
     border-radius: 50%;
+}
+/*hero*/
+.hero{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 110px);
+}
+.hero-text{
+
+}
+.hero-title{
+
+}
+.hero-desc{
+
+}
+.hero-btn{
+
+}
+.hero-bg{
+    height: 100%;
+    flex-basis: 464px;
+    opacity: .2;
+    background:linear-gradient(90deg,var(--yellow-color) 0%, rgba(253,249,282,0.45) 145.23%);
 }
