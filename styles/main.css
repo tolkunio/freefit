@@ -1,0 +1,21 @@
+:root{
+    /*colors*/
+    --grey-color:#F3F3F3;
+    --dark-color:#2B3541;
+    --yellow-color:#FBF138;
+    --yellow-gradient:linear-gradient(to right, #FBF138 0%, #FDF9B6 45%)
+
+}
+html{
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1142px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.header-wrapper{
+    display: flex;
+}
