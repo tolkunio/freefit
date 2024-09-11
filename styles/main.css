@@ -202,6 +202,9 @@ html {
     justify-content: space-between;
     padding: 20px 30px;
 }
+.item:hover{
+    background: linear-gradient(#FDF9B6 45%, #FBF138 100%);;
+}
 .item-date{
     text-align: right;
     font-size: 18px;
@@ -242,7 +245,77 @@ html {
 .item:nth-child(6) {
     grid-area: f;
 }
+.mailing{
+    background-color: var(--grey-color);
+}
+.mailing__wrapper{
+    padding: 80px 0;
+    margin: 0 auto;
+    max-width: 660px;
+}
+.mailing_title{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: var(--dark-color);
+    padding-bottom: 40px;
+}
+.form{
+    max-width: 620px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form>div{
+    flex-basis: calc(100% - 255px - 20px);
+}
+.agreement{
+    display: flex;
+    gap: 10px;
+}
+.email-input{
 
+}
+.agreement-btn{
+    flex-basis: 255px;
+    cursor: pointer;
+    color: var(--dark-color);
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+    padding: 20px 30px;
+    background-color: var(--yellow-color);
+    border: none;
+    text-transform: uppercase;
+    height: 65px;
+}
+.agreement-actions{
+    display: flex;
+    flex-direction: row;
+    gap:2px;
+}
+.email-input{
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+    max-width: 372px;
+    width: 100%;
+    border: none;
+    padding: 19px 0;
+    margin-right: 20px;
+}
+.email-input::placeholder {
+    color: var(--dark-color);
+    padding-left: 19px;
+}
+.checkbox{
+    padding-left: 100px;
+}
 @media screen and (max-width: 1000px) {
     .schedule-grid{
         grid-template-columns: repeat(2,1fr);
