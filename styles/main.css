@@ -265,11 +265,6 @@ html {
     display: flex;
     gap: 20px;
 }
-.form-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
 .form>div{
     flex-basis: calc(100% - 255px - 20px);
 }
@@ -380,12 +375,36 @@ html {
 .radio:checked + label::before{
     border-radius: 100%;
 }
+.about{
+    padding:150px 0;
+}
+.about-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:50px;
+}
+.about-info{
+
+}
+.about-title{
+    font-size: 40px;
+    line-height: 125%;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.about-desc{
+    max-width: 78%;
+}
+.about-img{
+    width: 581px;
+    max-width: 100%;
+}
 .footer{
     background-color: var(--grey-color);
 }
 .form-wrapper{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap:20px;
 }
 .footer-main{
